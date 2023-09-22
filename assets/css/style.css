@@ -12,6 +12,10 @@ h4 h5 h6 p li {
 main{
     height: auto;
 }
+.posicion{
+    width: 100%;
+    justify-content: center;
+}
 header{
     background-image: url(../img/bg-img.jpg);
     background-size:auto;
@@ -20,6 +24,10 @@ header{
     justify-content: center;
     padding: 50px;
     height: auto;
+}
+header img{
+    border-radius: 50%;
+    border: solid black 2px;
 }
 section h1{
     text-align: center;
@@ -52,9 +60,16 @@ footer a{
     display: flex;
     justify-content: center;
 }
+.logos{
+    padding: 30px;
+}
 /*Portafolio*/
 .portafolio{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.nav-portafolio{
+    padding: 30px;
+    text-align: center;
 }
